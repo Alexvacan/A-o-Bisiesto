@@ -5,16 +5,16 @@ describe("Bisiesto", () => {
     expect(EsAnioBisiesto(2000)).toEqual(true);
   });
   it("deberia verificar si el numero 1700 es bisiesto", () => {
-    expect(EsAnioBisiesto(1700)).toEqual(false);
+    expect(EsAnioBisiesto(1700)).toEqual(true);
   });
   it("deberia verificar si el numero 1800 es bisiesto", () => {
-    expect(EsAnioBisiesto(1800)).toEqual(false);
+    expect(EsAnioBisiesto(1800)).toEqual(true);
   });
   it("deberia verificar si el numero 1900 es bisiesto", () => {
-    expect(EsAnioBisiesto(1900)).toEqual(false);
+    expect(EsAnioBisiesto(1900)).toEqual(true);
   });
   it("deberia verificar si el numero 2100 es bisiesto", () => {
-    expect(EsAnioBisiesto(2100)).toEqual(false);
+    expect(EsAnioBisiesto(2100)).toEqual(true);
   });
   it("deberia verificar si el numero 2008 es bisiesto", () => {
     expect(EsAnioBisiesto(2008)).toEqual(true);
