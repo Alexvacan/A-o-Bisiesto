@@ -25,5 +25,13 @@ describe("Bisiesto", () => {
   it("deberia verificar si el numero 2016 es bisiesto", () => {
     expect(EsAnioBisiesto(2016)).toEqual(true);
   });
-  
+  it("deberia verificar si el numero 2017 es bisiesto", () => {
+    expect(EsAnioBisiesto(2017)).toEqual(false);
+  });
+  it("deberia verificar si el numero 2018 es bisiesto", () => {
+    expect(EsAnioBisiesto(2018)).toEqual(false);
+  });
+  it("deberia verificar si el numero 2019 es bisiesto", () => {
+    expect(EsAnioBisiesto(2019)).toEqual(false);
+  });
 });
